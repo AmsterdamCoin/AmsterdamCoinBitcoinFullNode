@@ -27,5 +27,13 @@ namespace Stratis.Bitcoin.Networks
                 return new NetworksSelector(() => new SolarisMain(), () => new SolarisTest(), () => new SolarisRegTest());
             }
         }
+
+        public static NetworksSelector AmsterdamCoin
+        {
+            get
+            {
+                return new NetworksSelector(() => new AmsterdamCoinMain(), () => new AmsterdamCoinTest(), () => new AmsterdamCoinRegTest());
+            }
+        }
     }
 }
