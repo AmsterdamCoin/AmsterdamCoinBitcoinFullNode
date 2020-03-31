@@ -175,6 +175,13 @@ namespace Stratis.Bitcoin.Configuration.Settings
             builder.AppendLine($"#connect=<ip:port>");
             builder.AppendLine($"#Add a node to connect to and attempt to keep the connection open. Can be specified multiple times.");
             builder.AppendLine($"#addnode=<ip:port>");
+            builder.AppendLine($"#Default addnodes.");
+            builder.AppendLine($"addnode=176.223.131.60");
+            builder.AppendLine($"addnode=85.214.223.236");
+            builder.AppendLine($"addnode=85.214.241.80");
+            builder.AppendLine($"addnode=85.214.130.77");
+            builder.AppendLine($"addnode=81.169.238.113");
+            builder.AppendLine($"addnode=81.169.234.147");
             builder.AppendLine($"#Bind to given address. Use [host]:port notation for IPv6. Can be specified multiple times.");
             builder.AppendLine($"#bind=<ip:port>");
             builder.AppendLine($"#Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6. Can be specified multiple times.");
