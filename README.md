@@ -1,20 +1,20 @@
 | Windows | MacOs | Ubuntu64
 | :---- | :------ | :---- |
-| [![Build Status](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_apis/build/status/HostedWindowsContainer-CI)](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_build/latest?definitionId=4) | [![Build Status](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_apis/build/status/HostedmacOS-CI)](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_build/latest?definitionId=6) | [![Build Status](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_apis/build/status/HostedUbuntu1604-CI)](https://dev.azure.com/StratisProject/StratisBitcoinFullNode/_build/latest?definitionId=5)
+| [![Build Status](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_apis/build/status/HostedWindowsContainer-CI)](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_build/latest?definitionId=4) | [![Build Status](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_apis/build/status/HostedmacOS-CI)](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_build/latest?definitionId=6) | [![Build Status](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_apis/build/status/HostedUbuntu1604-CI)](https://dev.azure.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/_build/latest?definitionId=5)
 
-Solaris Bitcoin
+AmsterdamCoin Bitcoin
 ===============
 
-https://stratisplatform.com
+https://amsterdamcoin.com
 
 Bitcoin Implementation in C#
 ----------------------------
 
-Solaris is an implementation of the Bitcoin protocol in C# on the [.NET Core](https://dotnet.github.io/) platform.  
-The node can run on the Bitcoin and Solaris networks.  
-Solaris Bitcoin is based on the [NBitcoin](https://github.com/MetacoSA/NBitcoin) project.  
+AmsterdamCoin is an implementation of the Bitcoin protocol in C# on the [.NET Core](https://dotnet.github.io/) platform.  
+The node can run on the Bitcoin and AmsterdamCoin networks.  
+AmsterdamCoin Bitcoin is based on the [NBitcoin](https://github.com/MetacoSA/NBitcoin) project.  
 
-For Proof of Stake support on the Solaris token the node is using [NStratis](https://github.com/stratisproject/NStratis) which is a POS implementation of NBitcoin.  
+For Proof of Stake support on the AmsterdamCoin token the node is using [NStratis](https://github.com/stratisproject/NStratis) which is a POS implementation of NBitcoin.  
 
 [.NET Core](https://dotnet.github.io/) is an open source cross platform framework and enables the development of applications and services on Windows, macOS and Linux.   
 
@@ -52,7 +52,7 @@ Create a Blockchain in a .NET Core style programming
 What's Next
 ----------
 
-We plan to add many more features on top of the Solaris Bitcoin blockchain:
+We plan to add many more features on top of the AmsterdamCoin Bitcoin blockchain:
 Sidechains, Private/Permissioned blockchain, Compiled Smart Contracts, NTumbleBit/Breeze wallet and more...
 
 Running a FullNode
@@ -62,8 +62,8 @@ The master branch is actively developed and regularly committed to, and it can b
 To compile a stable (production) release use any of the release tags form version 3.0.x.x and upwards.  
 
 ```
-git clone https://github.com/SolarisPlatform/SolarisBitcoinFullNode.git  
-cd SolarisBitcoinFullNode\src
+git clone https://github.com/AmsterdamCoinPlatform/AmsterdamCoinBitcoinFullNode.git  
+cd AmsterdamCoinBitcoinFullNode\src
 
 dotnet build
 
@@ -75,15 +75,15 @@ cd Stratis.BitcoinD
 dotnet run
 ```  
 
-To run on the Stratis network:
+To run on the AmsterdamCoin network:
 ```
-cd Stratis.SolarisD
+cd Stratis.AmsterdamCoinD
 dotnet run
 ```  
 
 Getting Started Guide
 -----------
-More details on getting started are available [here](https://github.com/stratisproject/StratisBitcoinFullNode/blob/master/Documentation/getting-started.md)
+More details on getting started are available [here](https://github.com/AmsterdamCoin/AmsterdamCoinBitcoinFullNode/blob/master/Documentation/getting-started.md)
 
 Development
 -----------
